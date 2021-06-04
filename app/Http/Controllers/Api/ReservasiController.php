@@ -58,7 +58,6 @@ class ReservasiController extends Controller
         $waktu = $this->waktu;
         $buka = $this->buka;
         $tutup = $this->tutup;
-        $tutup = date('H:i:s', strtotime('21:00:00'));
         if ($waktu < $buka || $waktu > $tutup) {
             $response = [
                 'message' => 'reservasi online dibuka pada pukul 10:00 - 20:30',
