@@ -10,7 +10,7 @@ class DashboardController extends Controller
 {
     public function __construct()
     {
-        $this->title = 'absensi';
+        $this->title = 'dashboard';
 //        $this->middleware("roles:{$this->title}");
     }
 
