@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "azzahra-klinik",
+  "private_key_id": "4b039a7ebbf3dd37f8d56b341302392b2fdff1c7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDWWIBBGzR/FTCp\ndp5EApSAl3deyneR1VhOZSxmjj6KMQG9anJ1DjGNmBNi/TRmnyhpf7lYa6MS3ufz\nZ8eoBPb1S+Z5adMfXh8xd/IbYOGeL/x2BdX0IHeyNfFplGRSyJHjOjft0hVii5yE\n2iYr5BOnT64pPK3P8ClnjpURuIO74QR2pxx7Exc9xgnk2LCf0Xma0+w8kYEZ4LCd\njtkbNL9E0oCN8ijdlF3ymgpDtFT/mBfkXrhGzhu+y9khQTLeATAMW6MVW6CmT1Ho\nhEzP3l1moUeIDgLLm+USkiOnUVLGeASP9Ma4YgWwYSKMRwdv1JYz+kYpngrlzHdG\nuHu4gYgnAgMBAAECggEAPWTpC3zy2umjYA65Q0qn5XM8/joo6Gz+16mT/6YDlMp3\nsJzyPsP7fo6OEv7qiPBSf3FVkdV2xptxPZ8+qUoOwHDmiWU90xC/B4jPIHdt+ETP\nX7DJOR0pm7JmvPKDj9CiNL8CsQxJEsphYQ4o+85esMAaZvZZ5KLqAR7uZL6AgQnq\n6dTIKIwXsWzbywMbazO/ir9az2YCNIxdpynxDOBgCyyTWagVkiEZEc+wEjlg8bon\nXEdiscfE9+A8+90zXalH23VQTEI4iOSvrJpXMaD4QSg1/YmnoeBKfqe97gerBSCI\nJ2VKB7SF1ahYzV9bRCc7pnng0BC8Re0RuJ70vm6t7QKBgQDuogQiAlkRPP3Eskvl\nrea55tgu0uqH+MZZMZHirwzSz3dcZO69lab8f0pvDPObmsqxMNsSCMLyxDHLsXPO\nK7BC8zVz8z1x6ZY+on/FnWRmAmIZShpvIfdrxjrAMebnvHFUhvJEAuM98238ULQx\n08dNgXn3a8nbHsBz4rj9Ff0qRQKBgQDl8f02XSXW/KLAAbU6vhroM0Pv46FYoGHu\nCT/7bFWR84DJq8JDCj+c/mzzDHTJhpTip7ia3AQuVifWtQ8QAiKzcQ4vYnQW16eF\nzIas5+O/rgwzbz/wUtUwfn2iX1k7476RUvfCHhT9+QV43gmKthKXerj+3AdkPVJt\n8jdggP1lewKBgQCDdxyBw/tfpNNFbtijUzfeSM/mk+oDOMnFT6rIUJnm9ccTTsO8\nDFsvlczi+yamHhP2pCy8dbk41197kWp0NdtoNubG10WNoRtVrF5p9zjdfgifWBTS\nDstpQ48QXS2Rk154K9QCJfkdIyP/slJjdQHCsEcKSQauwfVSoqA5RcjwZQKBgGb6\ndrHwCVA8mA5xNV53YMl4nAZE5S8xtGnMDrFklPXmHVkz6K3pWw/OCbDXdT4DXY4c\nGtqPiffOcc0ADRzYN/4wtW+XIfJQ5h9Pt0icGSzwn1oximrwTbWIEG+1T9s4ZVHj\n3D09B52t9jtpBNDwNWdNeKf6lfzYUaAXh6FaYyEdAoGBAKunk4ttvcTHfsqy2I53\n5eyu//BTi/LmVs5Ot/UuicRc+dElrxPyk6wmDgjf5ifn9LokvEtKqzvJV199LOtd\n9htFCo/EECxgQNF/Ro0EKPJ6mnI9aFMiD4r7EMQbtO0D5K8fkHQeKoZZRn0w9ejd\noa7cpEnOqVlS/6b6O7JbJxsJ\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-b9j0y@azzahra-klinik.iam.gserviceaccount.com",
+  "client_id": "116397073253496302963",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-b9j0y%40azzahra-klinik.iam.gserviceaccount.com"
+}
