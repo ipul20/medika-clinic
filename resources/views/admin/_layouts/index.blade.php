@@ -95,7 +95,7 @@
             <!--begin::Header-->
             @include('admin._layouts.header')
             <!--end::Header-->
-
+            @include('admin._layouts.profile-form')
             <!--begin::Content-->
             @yield('content')
             <!--end::Content-->

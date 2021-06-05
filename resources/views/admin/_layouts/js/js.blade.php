@@ -27,3 +27,14 @@
 <script src="{{ asset('theme/assets/js/pages/crud/forms/widgets/select2.js') }}"></script>
 <script src="{{ asset('theme/assets/js/pages/features/miscellaneous/toastr.js') }}"></script>
 <script src="{{ asset('theme/assets/js/pages/crud/forms/widgets/bootstrap-datepicker.js') }}"></script>
+<script>
+    function munculkanModalProfile() {
+            $("#headForm").empty();
+            $("#headForm").append("Form Input");
+            $('#saveBtn').show();
+            $('#updateBtn').hide();
+            $('#formId').val('');
+            $('#formInput').trigger("reset");
+            $('#profileModal').modal('show');
+        }
+</script>

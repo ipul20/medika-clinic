@@ -75,7 +75,7 @@
                                         <!--end::Symbol-->
                                         <!--begin::Text-->
                                         <div class="d-flex flex-column font-weight-bold">
-                                            <a href="#" class="text-dark text-hover-primary mb-1 font-size-lg">Change Password</a>
+                                            <a onclick="munculkanModalProfile()" class="text-dark text-hover-primary mb-1 font-size-lg">Change Password</a>
                                         </div>
                                         <!--end::Text-->
                                     </div>
@@ -120,6 +120,8 @@
                 <!--end::Dropdown-->
             </div>
             <!--end::My Cart-->
+            <!-- form profile -->
+            <!-- end form profile -->
             <!--begin::User-->
 {{--            <div class="topbar-item">--}}
 {{--                <div class="btn btn-icon btn-icon-mobile w-auto btn-clean d-flex align-items-center btn-lg px-2" id="kt_quick_user_toggle">--}}
