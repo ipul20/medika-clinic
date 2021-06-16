@@ -81,6 +81,8 @@
                                     </div>
                                     <!--end::Item-->
                                     <!--begin::Item-->
+                                    @if (auth()->user()->role =='tes')
+                                    
                                     <div class="d-flex align-items-center mb-6">
                                         <!--begin::Symbol-->
                                         <div class="symbol symbol-40 symbol-light-warning mr-5">
@@ -98,6 +100,7 @@
                                         </div>
                                         <!--end::Text-->
                                     </div>
+                                    @endif
                                     <!--end::Item-->
                                 </div>
                                 <!--end::Scroll-->
