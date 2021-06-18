@@ -26,7 +26,6 @@ class PemeriksaanController extends Controller
 
     public function store(Request $request)
     {
-
         $post = $request->all();
         $post['tanggal'] = date('Y-m-d');
         $id = $post['id'];
@@ -49,8 +48,8 @@ class PemeriksaanController extends Controller
         $data = Reservasi::where('id', $id)->update(['status' => '1']);
         $data = Reservasi::where('id', $id)->first();
         $no = Helper::getAntrian($data['dokter_id']);
-        if ($data['no_antrian'] == $no) {
-            $no = sprintf("%03d", Helper::getAntrian($id) + 1);
+        if ($data['no_antrian'] >= $no) {
+            $nomor = sprintf("%03d", $no + 1);
 
             $selanjutnya = Reservasi::where([['dokter_id', $data['dokter_id']], ['status', '0'], ['no_antrian', '>=', $no]])->limit(3)->get();
             $cek = Reservasi::where([['dokter_id', $data['dokter_id']], ['status', '0'], ['no_antrian', '>=', $no]])->first();
