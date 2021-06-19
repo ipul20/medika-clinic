@@ -15,15 +15,27 @@
                 <input type="hidden" name="id" id="formmidd">
                 <div class="modal-body">
                     <div class="form-group row">
-                        <div class="col-lg-6">
-                            <label>Nama</label>
-                            <input type="text" class="form-control" name="tess" id="tess" required />
+                        <div class="col-lg-10">
+                            <label>Password Lama</label>
+                            <input type="password" class="form-control" name="passwordlama" id="passwordlama" required />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-lg-10">
+                            <label>Password Baru</label>
+                            <input type="password" class="form-control" name="passwordbaru" id="passwordbaru" required />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-lg-10">
+                            <label>Konfirmasi Password Baru</label>
+                            <input type="password" class="form-control" name="konfirmasi" id="konfirmasi" required />
                         </div>
                     </div>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-danger mr-2" data-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-success" id="saveProfil" value="createProfil">Save</button>
+                    <button type="submit" class="btn btn-success" id="updatePassword" value="updatePassword">Update Password</button>
                 </div>
             </form>
 

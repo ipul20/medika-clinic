@@ -37,4 +37,29 @@
             $('#formInput').trigger("reset");
             $('#profileModal').modal('show');
         }
+    $(document).ready(function () {
+        $('#updatePassword').click(function (e) {
+            e.preventDefault();
+            $.ajax({
+                data: $('#formPassword').serialize(),
+                url: "{{route('password.ganti')}}",
+                type: "POST",
+                dataType: 'json',
+                success: function (data) {
+                    if(data.status==true){
+                    $('#formPassword').trigger("reset");
+                    $('#ajaxModel').modal('hide');
+                    toastr.success("Successful update data!");
+                    }else{
+                        toastr.warning(data.message);
+                    }
+                },
+                error: function (data) {
+                    $('#ajaxModel').modal('hide');
+                    toastr.warning("ganti Password Gagal");
+                }
+            });
+        });
+    });
+
 </script>

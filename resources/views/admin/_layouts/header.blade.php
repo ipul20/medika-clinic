@@ -61,7 +61,7 @@
                                  role="tabpanel">
                                 <!--begin::Scroll-->
                                 <div class="scroll pr-7 mr-n7" data-scroll="true" data-height="auto"
-                                     data-mobile-height="200">
+                                     data-mobile-height="auto">
                                     <!--begin::Item-->
                                     <div class="d-flex align-items-center mb-6">
                                         <!--begin::Symbol-->

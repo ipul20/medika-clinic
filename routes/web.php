@@ -24,6 +24,8 @@ use App\Http\Controllers\Admin\ReservasiController as Reservasi;
 use App\Http\Controllers\Admin\PemeriksaanController as Pemeriksaan;
 use App\Http\Controllers\Admin\PengaturanController as Pengaturan;
 use App\Http\Controllers\Admin\InformasiController as Informasi;
+use App\Http\Controllers\Admin\PasswordController as Password;
+
 use App\Http\Controllers\Admin\TesController;
 use App\Http\Controllers\FirebaseController;
 
@@ -126,6 +128,7 @@ Route::group(['prefix' => '', 'middleware' => ['auth']], function () {
     Route::get('/pengaturanjadwal', [Pengaturan::class, 'index']);
     Route::get('/noselanjutnya/{id}', [Pengaturan::class, 'skip']);
 
+    Route::post('/gantipass', [Password::class, 'ganti'])->name('password.ganti');
 
     Route::get('/firebase', [FirebaseController::class, 'index']);
     Route::get('/cek', [FirebaseController::class, 'cek']);
