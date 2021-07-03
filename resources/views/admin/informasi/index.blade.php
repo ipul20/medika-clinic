@@ -134,7 +134,6 @@
     <script type="text/javascript">
 
         $(document).ready(function () {
-
             loadpage('',5);
 
             var $pagination = $('.twbs-pagination');

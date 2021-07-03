@@ -32,7 +32,7 @@
                 <li class="menu-item" aria-haspopup="true">
                     <a href="{{url('/dashboard')}}" class="menu-link">
                         <span class="svg-icon menu-icon">
-                              <i class="flaticon2-dashboard @stack('dashboard')"></i>
+                              <i class="flaticon-home-1 @stack('dashboard')"></i>
                         </span>
                         <span class="menu-text">Dashboard</span>
                     </a>

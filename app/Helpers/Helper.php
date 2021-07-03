@@ -32,14 +32,14 @@ class Helper
     {
         if ($status == 1) {
             return ' <a href="javascript:void(0)" data-toggle="tooltip"  data-id="' . $id . '"
-            title="Non Aktifkan" class="btn btn-icon btn-danger btn-sm nonAktif">
+            title="Non Aktifkan" class="btn btn-icon btn-primary btn-sm m-1 nonAktif">
              <span class="svg-icon menu-icon">
                  <i class="flaticon-cancel"></i>
              </span>
          </a>';
         } else {
             return ' <a href="javascript:void(0)" data-toggle="tooltip"  data-id="' . $id . '"
-            title="Aktifkan" class="btn btn-icon btn-success btn-sm aktif">
+            title="Aktifkan" class="btn btn-icon btn-success m-1 btn-sm aktif">
              <span class="svg-icon menu-icon">
                  <i class="flaticon2-check-mark"></i>
              </span>
@@ -129,19 +129,19 @@ class Helper
         $edit = null;
         $delete = null;
         if (true) {
-            $edit = '<a onclick="editForm(' . $id . ')" class="btn btn-icon btn-warning btn-sm">
+            $edit = '<a onclick="editForm(' . $id . ')" class="btn btn-icon btn-warning btn-sm m-1">
                 <span class="svg-icon menu-icon">
                     <i class="flaticon-edit"></i>
                 </span>
-            </a> ';
+            </a><br>';
         }
         if (true) {
             $delete = ' <a href="javascript:void(0)" data-toggle="tooltip"  data-id="' . $id . '"
-               title="Delete" class="btn btn-icon btn-danger btn-sm deleteData">
+               title="Delete" class="btn btn-icon btn-danger btn-sm deleteData m-1">
                 <span class="svg-icon menu-icon">
                     <i class="flaticon2-trash"></i>
                 </span>
-            </a>';
+            </a><br>';
         }
         return $edit . $delete;
     }
@@ -167,6 +167,7 @@ class Helper
         if ($param == "") {
             return '-';
         } else {
+            return $param;
         }
     }
 

@@ -2,6 +2,9 @@
     <tr>
         <td>{{ ++$i }}</td>
         <td>{{ $v->tanggal }}</td>
+        <td>@php
+            date('h:i',$v->created_at)
+        @endphp</td>
         <td>{{ $v->pasien->nama }}</td>
         <td>{{ $v->keluhan }}</td>
         <td>{{ $v->poli->nama }}</td>

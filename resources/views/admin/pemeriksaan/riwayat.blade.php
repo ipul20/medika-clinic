@@ -88,6 +88,7 @@
                                             <tr>
                                                 <th scope="col" width="8%">No</th>
                                                 <th>Tanggal</th>
+                                                <th>Jam</th>
                                                 <th>Nama Pasien</th>
                                                 <th>Keluhan</th>
                                                 <th>Poliklinik</th>

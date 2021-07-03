@@ -57,9 +57,15 @@ License: You must have a valid license purchased only from themeforest(the above
 								@csrf
 								<div class="form-group mb-5">
 									<input class="form-control h-auto form-control-solid py-4 px-8" type="text" placeholder="Username" name="email" autocomplete="off" />
+									@error('username')
+										<div class="text-danger align-items-left">{{ $message }}</div>
+									@enderror
 								</div>
 								<div class="form-group mb-5">
 									<input class="form-control h-auto form-control-solid py-4 px-8" type="password" placeholder="Password" name="password" />
+									@error('password')
+										<div class="text-danger align-items-left">{{ $message }}</div>
+									@enderror
 								</div>
 								<div class="form-group d-flex flex-wrap justify-content-between align-items-center">
 									<div class="checkbox-inline">
